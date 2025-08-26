@@ -342,6 +342,7 @@ DEPENDENCIES
   puma
   rack-cors (~> 1.1)
   rails (~> 8.0.2.1)
+  rdoc
   rspec-rails (~> 6.0)
   rubocop (~> 1.50)
   rubocop-capybara (~> 2.20)

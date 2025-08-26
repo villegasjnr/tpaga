@@ -1,0 +1,15 @@
+--all
+--main README.md
+--op doc
+--line-numbers
+--show-hash
+--template=darkfish
+--charset=UTF-8
+--exclude=tmp
+--exclude=log
+--exclude=node_modules
+--exclude=.git
+--exclude=storage
+--exclude=coverage
+--exclude=spec
+--exclude=test

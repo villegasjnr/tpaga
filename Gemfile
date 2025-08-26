@@ -13,7 +13,8 @@ gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma"
 
-
+#Using the rdoc gem for application documentation
+gem 'rdoc'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
