@@ -28,7 +28,7 @@ class ApplicationController < ActionController::API
       error: 'Error de validación',
       details: exception.record.errors.full_messages,
       message: exception.message,
-    }, status: :unprocessable_entity
+    }, status: :unprocessable_content
   end
 
   # Manejo de errores de registro no encontrado

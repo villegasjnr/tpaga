@@ -138,28 +138,7 @@ GET /api/bancos/cercano?latitud=4.7110&longitud=-74.0721&limite_km=5.0
 }
 ```
 
-### 4. Documentación de la API
-```http
-GET /api/documentacion
-```
 
-### 5. Estadísticas
-```http
-GET /api/documentacion/estadisticas
-```
-
-**Respuesta:**
-```json
-{
-  "success": true,
-  "data": {
-    "estadisticas": {
-      "total_bancos": 10
-    },
-    "timestamp": "2025-08-24T01:46:14.460Z"
-  }
-}
-```
 
 ## 🧪 Testing
 
@@ -187,8 +166,7 @@ tpaga/
 ├── app/
 │   ├── controllers/
 │   │   └── api/
-│   │       ├── bancos_controller.rb
-│   │       └── documentacion_controller.rb
+│   │       └── bancos_controller.rb
 │   ├── models/
 │   │   └── banco.rb
 │   └── services/

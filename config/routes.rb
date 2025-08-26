@@ -40,28 +40,7 @@ Rails.application.routes.draw do
       end
     end
 
-    # ============================================================================
-    # DOCUMENTACIÓN DE LA API
-    # ============================================================================
-    #
-    # Rutas para la documentación y metadatos de la API:
-    # - GET /api/documentacion - Documentación completa de la API
-    # - GET /api/documentacion/estadisticas - Estadísticas de los bancos
-    #
-    # Estas rutas proporcionan información sobre cómo usar la API y
-    # métricas sobre los datos almacenados.
 
-    # GET /api/documentacion - Documentación completa de la API
-    #
-    # Retorna información detallada sobre todos los endpoints disponibles,
-    # incluyendo parámetros, ejemplos de uso y códigos de respuesta.
-    get 'documentacion', to: 'documentacion#index'
-
-    # GET /api/documentacion/estadisticas - Estadísticas de los bancos
-    #
-    # Retorna métricas sobre los bancos almacenados en la base de datos,
-    # como total de bancos, promedio de evaluación, etc.
-    get 'documentacion/estadisticas', to: 'documentacion#estadisticas'
   end
 
   # ============================================================================

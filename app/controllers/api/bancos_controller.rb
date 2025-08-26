@@ -114,7 +114,7 @@ module Api
           success: false,
           error: 'Error al crear el banco',
           details: @banco.errors.full_messages,
-        }, status: :unprocessable_entity
+        }, status: :unprocessable_content
       end
     end
 

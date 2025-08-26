@@ -112,8 +112,6 @@ end
 1. `POST /api/bancos` - Crear banco
 2. `GET /api/bancos/:id` - Obtener banco por ID
 3. `GET /api/bancos/cercano` - Buscar banco más cercano
-4. `GET /api/documentacion` - Documentación de la API
-5. `GET /api/documentacion/estadisticas` - Estadísticas
 
 ## 🗄️ Diseño de Base de Datos
 
@@ -236,7 +234,6 @@ end
 - **README**: Guía de instalación y uso
 
 ### Documentación de API
-- **Auto-documentación**: Endpoint `/api/documentacion`
 - **Ejemplos de uso**: Casos prácticos incluidos
 - **Códigos de respuesta**: Documentación completa
 - **Parámetros**: Descripción detallada de entrada

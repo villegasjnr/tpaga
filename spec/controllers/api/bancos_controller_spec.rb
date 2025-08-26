@@ -7,12 +7,12 @@ RSpec.describe Api::BancosController, type: :controller do
     context 'cuando el banco existe' do
 
       it 'retorna el estatus HTTP ok' do
-        get :show, params: { id: banco.id }, format: :json, format: :json
+        get :show, params: { id: banco.id }, format: :json
         expect(response).to have_http_status(:ok)
       end
 
       it 'retorna el banco en formato JSON con los atributos correctos' do
-        get :show, params: { id: banco.id }, format: :json, format: :json
+        get :show, params: { id: banco.id }, format: :json
         json_response = JSON.parse(response.body)
 
         expect(json_response).to include(
@@ -117,7 +117,7 @@ RSpec.describe Api::BancosController, type: :controller do
 
       it 'responde con el estatus HTTP de entidad no procesable' do
         post :create, params: invalid_params, format: :json
-        expect(response).to have_http_status(:unprocessable_entity)
+        expect(response).to have_http_status(:unprocessable_content)
       end
 
       it 'retorna un JSON de error con los detalles de la validación' do
