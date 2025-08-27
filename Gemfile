@@ -53,7 +53,7 @@ group :development, :test do
   # RuboCop gems for code quality
   gem 'rubocop', '~> 1.50'
   gem 'rubocop-rails', '~> 2.20'
-  gem 'rubocop-rspec', '~> 2.20'
+  gem 'rubocop-rspec', '~> 3.6'
   gem 'rubocop-rspec_rails', '~> 2.20'
   gem 'rubocop-factory_bot', '~> 2.20'
   gem 'rubocop-capybara', '~> 2.20'
