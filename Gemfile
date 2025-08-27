@@ -51,7 +51,7 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 5.0'
 
   # RuboCop gems for code quality
-  gem 'rubocop', '~> 1.50'
+  gem 'rubocop', '~> 1.80'
   gem 'rubocop-rails', '~> 2.20'
   gem 'rubocop-rspec', '~> 2.20'
   gem 'rubocop-rspec_rails', '~> 2.20'
