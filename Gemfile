@@ -58,7 +58,7 @@ end
 gem 'faraday'
 
 # Soporte para CORS en Rails (necesario para APIs y microservicios)
-gem 'rack-cors', '~> 1.1'
+gem 'rack-cors', '~> 3.0'
 
 gem 'psych', '~> 4.0.3'
 
