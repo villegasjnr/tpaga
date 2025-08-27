@@ -60,7 +60,7 @@ gem 'faraday'
 # Soporte para CORS en Rails (necesario para APIs y microservicios)
 gem 'rack-cors', '~> 1.1'
 
-gem 'psych', '~> 4.0.3'
+gem 'psych', '~> 5.2.6'
 
 # Geocoding and distance calculations
 gem 'geocoder', '~> 1.8'
