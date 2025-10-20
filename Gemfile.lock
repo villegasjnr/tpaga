@@ -192,7 +192,7 @@ GEM
       pry (>= 0.9.10, < 0.15)
     psych (4.0.6)
       stringio
-    puma (6.6.1)
+    puma (7.1.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.0)
